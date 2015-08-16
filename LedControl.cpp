@@ -1,4 +1,11 @@
 
+/********************************************
+版权：撸主享有所有权
+作者：亨特胥
+日期：2015年6月30日
+开源协议：GPLv3
+联系方式:xmj8888@hotmail.com
+********************************************/
 
 #include "LedControl.h"
 
@@ -224,10 +231,11 @@ void LedControl::print(double str, unsigned int digits)
 	print(Float2Str(str,digits));
 }
 
-void LedControl::windowPrint(const Window & win,  const String &  str1,
-												  const String &  str2 , 
-												  const String &  str3 ,
-												  const String &  str4  )
+void LedControl::windowPrint(const Window & win, 
+		const String &  str1, 
+		const String &  str2, 
+		const String &  str3, 
+		const String &  str4 )
 {
 	if(!win.getWindowCount())	return ;
 	String str[4] = {str1, str2, str3, str4};
@@ -271,51 +279,51 @@ void LedControl::windowPrint(const Window & win,  const String &  str1,
 
 
 void LedControl::windowPrint(const Window & win,  int  str1 , 
-												  int  str2 ,
-												  int  str3 ,
-												  int  str4   )
+			int  str2 ,
+			int  str3 ,
+			int  str4  )
 {
 	windowPrint(win, String(str1), String(str2), String(str3), String(str4));
 }
 void LedControl::windowPrint(const Window & win,  unsigned int  str1 , 
-												  unsigned int  str2 ,
-												  unsigned int  str3 ,
-												  unsigned int  str4   )
+			unsigned int  str2 ,
+			unsigned int  str3 ,
+			unsigned int  str4   )
 {
 	windowPrint(win, String(str1), String(str2), String(str3), String(str4));
 }
 void LedControl::windowPrint(const Window & win,  long  str1 , 
-												  long  str2 ,
-												  long  str3 ,
-												  long  str4   )
+			long  str2 ,
+			long  str3 ,
+			long  str4   )
 {
 	windowPrint(win, String(str1), String(str2), String(str3), String(str4));
 }
 void LedControl::windowPrint(const Window & win,  unsigned long  str1 , 
-												  unsigned long  str2 ,
-												  unsigned long  str3 ,
-												  unsigned long  str4   )
+			unsigned long  str2 ,
+			unsigned long  str3 ,
+			unsigned long  str4   )
 {
 	windowPrint(win, String(str1), String(str2), String(str3), String(str4));
 }
 void LedControl::windowPrint(const Window & win,  char  str1 , 
-												  char  str2 ,
-												  char  str3 ,
-												  char  str4   )
+			char  str2 ,
+			char  str3 ,
+			char  str4   )
 {
 	windowPrint(win, String(str1), String(str2), String(str3), String(str4));
 }
 void LedControl::windowPrint(const Window & win,  unsigned char  str1 , 
-												  unsigned char  str2 ,
-												  unsigned char  str3 ,
-												  unsigned char  str4   )
+			unsigned char  str2 ,
+			unsigned char  str3 ,
+			unsigned char  str4   )
 {
 	windowPrint(win, String(str1), String(str2), String(str3), String(str4));
 }
 void LedControl::windowPrint(const Window & win,  double  str1 , 
-												  double  str2 ,
-												  double  str3 ,
-												  double  str4   )
+			double  str2 ,
+			double  str3 ,
+			double  str4   )
 {
 	windowPrint(win, Float2Str(str1), Float2Str(str2), Float2Str(str3), Float2Str(str4));
 }
