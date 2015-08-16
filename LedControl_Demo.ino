@@ -1,10 +1,5 @@
 #include <LedControl.h>
 
-//分别定义片选引脚、时钟引脚、数据引脚
-int csPin = 8;
-int clockPin = 12;
-int dataPin = 11;
-
 void setup()
 {
  Serial.begin(9600);
@@ -13,7 +8,7 @@ void setup()
 void loop()
 {
     //创建LedControl 和 Window 类的对象
-    LedControl led(dataPin, clockPin, csPin);
+    LedControl led;
     Window win; 
 
     //设置一个起始地址为0，长度为8字符的显示窗口
