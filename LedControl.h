@@ -221,37 +221,37 @@ class LedControl {
 	void print(double str = 0.0, unsigned int digits = 2) 中， unsigned int digits表示精确小数位数；
      */
 	void windowPrint(const Window & win,  const String &  str1 = "", 
-										  const String &  str2 = "",
-										  const String &  str3 = "",
-										  const String &  str4 = ""  );
+					const String &  str2 = "",
+					const String &  str3 = "",
+					const String &  str4 = ""  );
 	void windowPrint(const Window & win,  int  str1 = 0, 
-										  int  str2 = 0,
-										  int  str3 = 0,
-										  int  str4 = 0  );
+					int  str2 = 0,
+					int  str3 = 0,
+					int  str4 = 0  );
 	void windowPrint(const Window & win,  unsigned int  str1 = 0, 
-										  unsigned int  str2 = 0,
-										  unsigned int  str3 = 0,
-										  unsigned int  str4 = 0  );
+					unsigned int  str2 = 0,
+					unsigned int  str3 = 0,
+					unsigned int  str4 = 0  );
 	void windowPrint(const Window & win,  long  str1 = 0, 
-										  long  str2 = 0,
-										  long  str3 = 0,
-										  long  str4 = 0  );
+					long  str2 = 0,
+					long  str3 = 0,
+					long  str4 = 0  );
 	void windowPrint(const Window & win,  unsigned long  str1 = 0, 
-										  unsigned long  str2 = 0,
-										  unsigned long  str3 = 0,
-										  unsigned long  str4 = 0  );
+					unsigned long  str2 = 0,
+					unsigned long  str3 = 0,
+					unsigned long  str4 = 0  );
 	void windowPrint(const Window & win,  char  str1 = ' ', 
-										  char  str2 = ' ',
-										  char  str3 = ' ',
-										  char  str4 = ' '  );
+					char  str2 = ' ',
+					char  str3 = ' ',
+					char  str4 = ' '  );
 	void windowPrint(const Window & win,  unsigned char  str1 = 0, 
-										  unsigned char  str2 = 0,
-										  unsigned char  str3 = 0,
-										  unsigned char  str4 = 0  );
+					unsigned char  str2 = 0,
+					unsigned char  str3 = 0,
+					unsigned char  str4 = 0  );
 	void windowPrint(const Window & win,  double  str1 = 0.0, 
-										  double  str2 = 0.0,
-										  double  str3 = 0.0,
-										  double  str4 = 0.0  );
+					double  str2 = 0.0,
+					double  str3 = 0.0,
+					double  str4 = 0.0  );
 	
 };
 
